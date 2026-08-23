@@ -1,0 +1,18 @@
+node_modules/
+dist/
+dist-desktop/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Release packages belong in GitHub Releases, not source control.
+*.apk
+*.aab
+*.zip
+
+# Local tooling and operating-system files.
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
