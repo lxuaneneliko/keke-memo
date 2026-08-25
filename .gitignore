@@ -10,6 +10,17 @@ vite.config.d.ts
 *.aab
 *.zip
 
+# Never publish local Android SDK paths, environment files, or signing keys.
+android/local.properties
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+
 # Local tooling and operating-system files.
 .idea/
 .vscode/
